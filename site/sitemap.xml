@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://dpdpact.info/</loc></url>
+  <url><loc>https://dpdpact.info/about.html</loc></url>
+  <url><loc>https://dpdpact.info/contact.html</loc></url>
+  <url><loc>https://dpdpact.info/newsletter.html</loc></url>
+  <url><loc>https://dpdpact.info/templates.html</loc></url>
+  <url><loc>https://dpdpact.info/start-here.html</loc></url>
+  <url><loc>https://dpdpact.info/startup-dpdp-compliance.html</loc></url>
+  <url><loc>https://dpdpact.info/resources/dpdp-startup-readiness-checklist.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/index.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/what-is-dpdp-act.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/dpdp-compliance-checklist.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/dpdp-vs-gdpr.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/dpdp-for-startups.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/consent-under-dpdp.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/dpdp-privacy-notice-checklist.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/data-principal-rights.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/dpdp-penalties.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/how-to-map-personal-data.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/data-retention-and-deletion-checklist.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/children-data-rules.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/vendor-and-processor-checklist.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/who-does-dpdp-apply-to.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/what-counts-as-personal-data.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/dpdp-for-saas.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/dpdp-for-ecommerce.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/key-dpdp-terms-explained.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/significant-data-fiduciary-explained.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/how-to-handle-deletion-requests.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/how-to-handle-access-and-correction-requests.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/data-fiduciary-vs-processor.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/exemptions-under-dpdp.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/law-status-and-timeline.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/official-resources.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/what-is-a-data-fiduciary.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/what-is-a-data-processor.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/lawful-uses-under-dpdp.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/duties-of-data-fiduciaries.html</loc></url>
+  <url><loc>https://dpdpact.info/guides/grievance-redressal-under-dpdp.html</loc></url>
 </urlset>
