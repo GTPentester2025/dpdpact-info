@@ -1,3 +1,4 @@
+cat > .github/workflows/deploy.yml <<'EOF'
 name: Deploy dpdpact.info
 
 on:
@@ -23,3 +24,4 @@ git pull
 mkdir -p /var/www/dpdpact
 cp -r /home/deploy/dpdpact-info/site/* /var/www/dpdpact/
 sudo systemctl reload nginx
+EOF
