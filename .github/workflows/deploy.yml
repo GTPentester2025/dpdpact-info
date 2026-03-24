@@ -10,7 +10,7 @@ deploy:
 runs-on: ubuntu-latest
 
 steps:
-- name: Deploy over SSH
+- name: Deploy site over SSH
 uses: appleboy/ssh-action@v1.0.3
 with:
 host: ${{ secrets.SERVER_HOST }}
@@ -20,5 +20,6 @@ script: |
 set -e
 cd /home/deploy/dpdpact-info
 git pull
+mkdir -p /var/www/dpdpact
 cp -r /home/deploy/dpdpact-info/site/* /var/www/dpdpact/
 sudo systemctl reload nginx
