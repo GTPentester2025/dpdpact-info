@@ -18,7 +18,10 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  background: var(--bg);
+  background:
+    radial-gradient(circle at top right, rgba(37, 99, 235, 0.08), transparent 26%),
+    radial-gradient(circle at top left, rgba(15, 118, 110, 0.06), transparent 22%),
+    var(--bg);
   color: var(--text);
   line-height: 1.65;
 }
@@ -102,18 +105,19 @@ a:hover { color: var(--accent-dark); }
 
 h1 {
   margin: 0 0 18px;
-  font-family: Inter, system-ui, sans-serif;
+  font-family: "Newsreader", Georgia, serif;
   font-size: clamp(2.4rem, 5vw, 4.3rem);
   line-height: 1.04;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.03em;
   max-width: 12ch;
 }
 
 h2 {
   margin: 0 0 18px;
+  font-family: "Newsreader", Georgia, serif;
   font-size: clamp(1.8rem, 3.2vw, 2.5rem);
   line-height: 1.1;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 h3 {
@@ -247,6 +251,45 @@ ol { padding-left: 20px; }
   gap: 20px;
 }
 
+.article-card {
+  max-width: 860px;
+}
+
+.article-card h2 {
+  margin-top: 34px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.article-card ul li,
+.article-card ol li {
+  margin-bottom: 8px;
+}
+
+.key-takeaway {
+  margin: 18px 0 22px;
+  padding: 16px 18px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 16px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.law-practice-action {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 20px 0 24px;
+}
+
+.law-practice-action > div {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+  padding: 16px;
+}
+
 .related-links {
   display: grid;
   gap: 12px;
@@ -271,7 +314,8 @@ ol { padding-left: 20px; }
   .hero-grid,
   .grid,
   .grid-2,
-  .footer-grid {
+  .footer-grid,
+  .law-practice-action {
     grid-template-columns: 1fr;
   }
 
