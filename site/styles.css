@@ -214,6 +214,31 @@ h3 {
 }
 
 .resource-panel .card + .card { margin-top: 14px; }
+.feature-panel {
+  background: linear-gradient(135deg, #eff6ff, #ffffff 65%);
+  border: 1px solid #bfdbfe;
+}
+
+.mini-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.stat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255,255,255,.9);
+  color: var(--text);
+  font-size: .92rem;
+  font-weight: 700;
+}
+
 .resource-kicker {
   display: inline-block;
   font-size: .78rem;
